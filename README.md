@@ -56,7 +56,7 @@ To install and deploy the ReplicaBalancer in your Kubernetes cluster, follow the
        spec:
          containers:
          - name: ReplicaBalancer-app
-           image: nazaninakhtarian/rsapp:testing
+           image: nazaninakhtarian/replica-balancer:latest
            imagePullPolicy: Always
            volumeMounts:
            - mountPath: "/var/data"
